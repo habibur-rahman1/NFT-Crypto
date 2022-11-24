@@ -1,0 +1,713 @@
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* abir  */
+
+
+/* -----first unit----- */
+
+.preview__title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.preview__title P {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.preview {
+    padding-bottom: 98px;
+    border: 14px solid rgb(146, 204, 65);
+}
+
+.box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.box__chg {
+    margin-bottom: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box__chg span {
+    margin-bottom: 129px;
+}
+
+.box__chg p {
+    margin-bottom: 33px;
+    font-size: 35px;
+}
+
+.box .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+}
+
+.box .icons a {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+
+.inner__box {
+    position: absolute;
+    left: 33%;
+    border: 7px solid rgb(84, 204, 65);
+    top: -25%;
+    border-radius: 10px;
+    max-height: 133px;
+    max-width: 133px;
+}
+
+.inner__box img {
+    width: 100%;
+}
+
+.preview__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.preview__content h4 {
+    font-size: 28px;
+    color: #fff;
+    margin: 24px 0px 28px;
+}
+
+.preview__content a {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.preview__content a.first__child {
+    color: #92CC41;
+    margin-bottom: 10px;
+}
+
+.preview__content a.last__child {
+    color: #F71D3A;
+}
+
+.preview__button {
+    position: absolute;
+    bottom: -12%;
+    left: 30%;
+    background-color: rgb(190, 109, 0, 100%);
+    width: 163px;
+    height: 52px;
+    border-radius: 10px;
+    line-height: 52px;
+    font-size: 20px;
+}
+
+.preview__button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.last__unit a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 150px;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+/* -----first unit----- */
+
+
+/* -----middle unit----- */
+
+.middle__inner .section__foot {
+    text-align: center;
+}
+
+.middle__inner .section__foot a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    /* background-color: rgb(39, 214, 138); */
+    background: radial-gradient(50% 50% at 50% 50%, #27D68A 0%, #13D958 48.1%, #087D08 100%);
+    width: 52%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 1440px) {
+    .box .icons {
+        max-width: 79%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    .inner__box {
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .preview__content h4 {
+        font-size: 22px;
+        margin: 25px 0;
+    }
+    .box__chg {
+        margin-bottom: -15px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .inner__box {
+        top: -14%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .inner__box {
+        top: -3%;
+        left: 32%;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .box__chg p {
+        margin-bottom: 12px;
+        font-size: 22px;
+    }
+    .box__chg {
+        margin-bottom: -38px;
+    }
+    .preview__button {
+        left: 20%;
+        bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .inner__box {
+        top: 7%;
+        left: 32%;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .preview__content h4 {
+        margin: 0 0 7px;
+        font-size: 18px;
+    }
+    .preview__content a {
+        font-size: 14px;
+    }
+    .preview__button {
+        width: 96px;
+        height: 34px;
+        border-radius: 10px;
+        line-height: 34px;
+        font-size: 17px;
+    }
+    .preview__button {
+        left: 30%;
+        bottom: 13%;
+    }
+    .box__chg p {
+        margin-bottom: 0;
+    }
+    .box__chg {
+        margin-bottom: -56px;
+    }
+    .middle__inner .section__foot a {
+        width: 69%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .box .icons {
+        justify-content: space-between;
+        max-width: 80%;
+        margin: auto;
+    }
+    .box__chg {
+        margin-bottom: -68px;
+    }
+    .inner__box {
+        top: 12%;
+        left: 30%;
+    }
+    .box {
+        margin-bottom: 20px;
+    }
+    .middle__inner .box .icons {
+        justify-content: space-between;
+        max-width: 80%;
+        margin: 0 auto 11px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .preview__button {
+        width: 125px;
+        height: 47px;
+        line-height: 47px;
+        left: 34%;
+        bottom: -7%;
+    }
+    .box__chg {
+        margin-bottom: 0;
+    }
+    .inner__box {
+        top: -13%;
+        left: 37%;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .preview__content h4 {
+        margin: 0px 0 31px;
+        font-size: 28px;
+    }
+    .preview__content a {
+        font-size: 23px;
+    }
+    .middle__inner .section__foot a {
+        width: 92%;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .box__chg {
+        margin-bottom: -23px;
+    }
+    .inner__box {
+        top: -1%;
+        left: 36%;
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .middle__inner .inner__box {
+        top: -6%;
+    }
+    .middle__inner .preview__button {
+        bottom: 1%;
+    }
+    .preview__button {
+        width: 112px;
+        height: 40px;
+        line-height: 40px;
+        left: 30%;
+        bottom: 5%;
+    }
+    .preview__content h4 {
+        margin: 0px 0 16px;
+        font-size: 22px;
+    }
+    .preview__content a {
+        font-size: 19px;
+    }
+    .preview__content a.first__child {
+        margin-bottom: 10px;
+    }
+    .middle__inner .section__foot a {
+        width: 100%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .inner__box {
+        top: 5%;
+        left: 34%;
+    }
+    .box__chg {
+        margin-bottom: -53px;
+    }
+    .middle__inner .box__chg {
+        margin-bottom: -39px;
+    }
+    .middle__inner .inner__box {
+        top: 0%;
+    }
+    .middle__inner .preview__button {
+        bottom: 7%;
+    }
+    .preview__button {
+        bottom: 11%;
+    }
+    .preview__content h4 {
+        font-size: 15px;
+    }
+    .preview__content a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .box__chg {
+        margin-bottom: -78px;
+    }
+    .inner__box {
+        max-width: 61px;
+        top: 15%;
+    }
+    .middle__inner .box__chg {
+        margin-bottom: -62px;
+    }
+    .middle__inner .inner__box {
+        top: 12%;
+    }
+    .middle__inner .preview__button {
+        bottom: 15%;
+        left: 34%;
+        font-size: 14px;
+    }
+    .box__chg p {
+        font-size: 17px;
+    }
+    .box .icons {
+        font-size: 25px;
+    }
+    .preview__button {
+        width: 70px;
+        height: 28px;
+        line-height: 28px;
+        bottom: 19%;
+    }
+}
+
+
+/* -----middle unit----- */
+
+
+/* ======================================
+      game page start here
+=========================================*/
+
+
+/* .active__unit{
+  display: none;
+} */
+
+.active__inner .preview__title {
+    justify-content: space-between;
+}
+
+.mountain__box {
+    border: 13px solid #92CC41;
+    background-color: #303030;
+}
+
+.mountain__land {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 77px 52px 76px;
+}
+
+.mountain__land svg.svg-inline--fa.fa-xmark {
+    font-size: 28px;
+    color: #fff;
+}
+
+.active__inner p.middle__p {
+    font-size: 22px;
+    padding: 17px 0 17px 80px;
+    background-color: gray;
+    color: #fff;
+    margin: 30px 0 20px;
+}
+
+.mountain__land .mountain__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.mountain__land .mountain__img>img {
+    width: 120px;
+    height: 120px;
+}
+
+.mountain__land .mountain__img .content h4 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mountain__land .mountain__img .content a {
+    /* color: red; */
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.score__stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    padding: 53px 77px 80px 76px;
+}
+
+.score__stats .state span {
+    display: block;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1440px) {
+    .mountain__land .mountain__img {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .mountain__land .mountain__img .content a {
+        margin-right: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .mountain__land {
+        padding: 52px 40px;
+    }
+    .mountain__land .mountain__img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .score__stats {
+        padding: 52px 40px;
+    }
+    .active__inner p.middle__p {
+        padding: 17px 40px;
+    }
+}
+
+
+/* -----box slider start here----- */
+
+.box__slide {
+    margin-bottom: 400px;
+}
+
+.box__slide__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 243px 0 200px;
+}
+
+
+/* .box__slide__inner .inner__box{
+  left: 33%;
+} */
+
+.box__slide__inner .box {
+    width: 100%;
+}
+
+.box__btn {
+    height: 90px;
+    width: 90px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #635300;
+    border-radius: 50%;
+    border: 5px solid #92CC41;
+    width: 15%;
+}
+
+.box__btn svg.svg-inline--fa {
+    font-size: 41px;
+    color: #fff;
+}
+
+.box__slide__outter .box {
+    width: 24%;
+    margin: auto;
+}
+
+.box__slide__outter .inner__box {
+    left: 33%;
+}
+
+
+/* .box__slide__inner .inner__box, */
+
+.box__slide__outter .inner__box {
+    top: -25%;
+}
+
+
+/* .box__slide__inner .box__chg,
+.box__slide__outter .box__chg{
+  margin-bottom: -9px;
+} */
+
+@media screen and (max-width: 1440px) {
+    .mountain__land .mountain__img {
+        width: 50%;
+    }
+    .box__slide .box__btn {
+        height: 61px;
+        line-height: 61px;
+        border: 2px solid #92CC41;
+        width: 15%;
+    }
+    .box__btn svg.svg-inline--fa {
+        font-size: 20px;
+        color: #fff;
+    }
+    .box__slide__outter .box {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .box__slide {
+        margin-bottom: 200px;
+    }
+    .box__slide .box__btn {
+        height: 37px;
+        line-height: 37px;
+    }
+    .box__slide__inner {
+        margin: 70px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .box__slide .box .icons {
+        max-width: 92%;
+        margin: auto;
+    }
+    .box__slide__outter .inner__box {
+        left: 33%;
+        top: 2%;
+    }
+    .box__slide .box__chg {
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .box__slide__outter .inner__box {
+        left: 32%;
+        top: 9%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box__slide__outter .box {
+        width: 65%;
+    }
+    .box__slide__outter .inner__box {
+        left: 37%;
+        top: -13%;
+    }
+    /* .box__slide__outter .box__chg {
+      margin-bottom: 7px;
+  } */
+}
+
+@media screen and (max-width: 575px) {
+    .box__slide__outter .box {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .box__slide__outter .box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .box__slide__outter .inner__box {
+        left: 39%;
+        top: -9%;
+    }
+    /* .box__slide__outter .box__chg {
+      margin-bottom: 0;
+  } */
+    .box__slide__outter .preview__button {
+        width: 112px;
+        height: 40px;
+        line-height: 40px;
+        left: 32%;
+        bottom: -3%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* .box__slide__outter .box__chg {
+      margin-bottom: -34px;
+  } */
+    .box__slide__outter .inner__box {
+        left: 39%;
+        top: 2%;
+    }
+    .box__slide__outter .preview__button {
+        left: 30%;
+        bottom: 6%;
+    }
+}
+
+
+/* -----box slider end here----- */
+
+
+/* ======================================
+      game page start here
+=========================================*/
+
+.Link,
+.Link:hover {
+    text-decoration: none!important;
+    color: #fff;
+}
